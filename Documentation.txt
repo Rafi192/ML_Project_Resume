@@ -1,0 +1,54 @@
+------------------Machine Learning Engineer Task: Resume Categorization------------------
+
+Steps to run the program-
+1. Downlaoding the dataset from the following link:
+https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+And also, Download or clone the repository .
+
+2.Installing dependencies using pip/peotry(For windows):
+pip install Wordcloud
+pip install matplotlib
+pip install pandas
+pip install numpy
+pip install seaborn
+pip install re
+pip install scikit-learn
+
+For google colab:
+!pip install Wordcloud
+!pip install matplotlib
+!pip install pandas
+!pip install numpy
+!pip install seaborn
+!pip install re
+
+3. For running the Script from command line, use this command:
+python main.py "D:\Resume_classification\Resume\Project\APPAREL" 
+
+" "=any specific directory that holds the resumes
+
+4. The program Can also be run via google colab(without the main.py script),
+Here you will find from importing necessary libraries to Training and evaluation of models.
+
+--Just click on open in colab from the google colab link in the repository.
+--The colab is great for having look into the data visualization and preprocessing.
+
+***********************
+----Pre processing and feature extration techniques are elaborated along with the code in the google colab file.
+Nevertheless, I have used tfIdVectrozer method, which is a better feature extraction technique that countVectorizer,
+as it emphasizes on importance of words. 
+--Also, Most of the data cleansing were done using regular expression.
+--Moreover, word tokenization and removal of stop words were also implemented to prepare the dataset for training.
+
+***********************
+Rationale behind chosing the model---
+
+I used differnt classical Machine learning models for training such as SVM, Logistic regression, Decision tree,
+as well as Random forest to classifiy resumes.
+
+As it is a multiclass classification, SVM is good option and it scored better than other in the training.
+SVM is also effective in high-dimensional spaces, making it suitable for text data.
+  
+
+
+
