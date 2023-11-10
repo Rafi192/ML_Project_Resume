@@ -1,4 +1,4 @@
-------------------Machine Learning Engineer Task: Resume Categorization------------------
+------------------Resume Categorization------------------
 
 Steps to run the program-
 1. Downlaoding the dataset from the following link:
